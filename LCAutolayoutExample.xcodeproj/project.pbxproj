@@ -15,6 +15,7 @@
 		8AF4A0501BEA41E80005A866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF4A04E1BEA41E80005A866 /* LaunchScreen.storyboard */; };
 		8AF4A05B1BEA41E80005A866 /* LCAutolayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A05A1BEA41E80005A866 /* LCAutolayoutExampleTests.m */; };
 		8AF4A0661BEA41E80005A866 /* LCAutolayoutExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0651BEA41E80005A866 /* LCAutolayoutExampleUITests.m */; };
+		8AF4A0741BEA48490005A866 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF4A0731BEA48490005A866 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8AF4A0611BEA41E80005A866 /* LCAutolayoutExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCAutolayoutExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF4A0651BEA41E80005A866 /* LCAutolayoutExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAutolayoutExampleUITests.m; sourceTree = "<group>"; };
 		8AF4A0671BEA41E90005A866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF4A0731BEA48490005A866 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8AF4A0441BEA41E80005A866 /* AppDelegate.m */,
 				8AF4A0461BEA41E80005A866 /* ViewController.h */,
 				8AF4A0471BEA41E80005A866 /* ViewController.m */,
+				8AF4A0731BEA48490005A866 /* ViewController.xib */,
 				8AF4A0491BEA41E80005A866 /* Main.storyboard */,
 				8AF4A04C1BEA41E80005A866 /* Assets.xcassets */,
 				8AF4A04E1BEA41E80005A866 /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 			files = (
 				8AF4A0501BEA41E80005A866 /* LaunchScreen.storyboard in Resources */,
 				8AF4A04D1BEA41E80005A866 /* Assets.xcassets in Resources */,
+				8AF4A0741BEA48490005A866 /* ViewController.xib in Resources */,
 				8AF4A04B1BEA41E80005A866 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LCAutolayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcode.LCAutolayoutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LCAutolayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcode.LCAutolayoutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
