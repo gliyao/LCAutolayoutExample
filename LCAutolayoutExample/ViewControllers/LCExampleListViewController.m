@@ -11,8 +11,8 @@
     [super loadView];
     
     self.viewControllers = @[
-                             @[@"LCFrameLikeAutoLayoutController", @"LCResponsiveAutoLayoutViewController", @"LCLaunchScreenViewController"]
-                             
+                             @[@"LCFrameLikeAutoLayoutController", @"LCResponsiveAutoLayoutViewController", @"LCLaunchScreenViewController"],
+                             @[@"LCIntrinsicContentSizeViewController"]
                              ];
 }
 
@@ -21,6 +21,7 @@
     NSString *className = self.viewControllers[indexPath.section][indexPath.row];
     Class c = NSClassFromString(className);
     UIViewController *vc = [[c alloc] initWithNibName:className bundle:nil];
+    vc.title = className;
     [self.navigationController pushViewController:vc animated:YES];
 }
 
