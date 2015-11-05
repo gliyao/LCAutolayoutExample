@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A36135E1BEBB3F100A54C10 /* LCExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36135D1BEBB3F100A54C10 /* LCExampleListViewController.m */; };
+		8A3613621BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3613601BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m */; };
+		8A3613631BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3613611BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib */; };
+		8A3613671BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3613651BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m */; };
+		8A3613681BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3613661BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib */; };
+		8A36136C1BEBBD9400A54C10 /* LCLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36136A1BEBBD9400A54C10 /* LCLaunchScreenViewController.m */; };
+		8A36136D1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A36136B1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib */; };
 		8AF4A0421BEA41E80005A866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0411BEA41E80005A866 /* main.m */; };
 		8AF4A0451BEA41E80005A866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0441BEA41E80005A866 /* AppDelegate.m */; };
 		8AF4A0481BEA41E80005A866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0471BEA41E80005A866 /* ViewController.m */; };
@@ -36,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A36135C1BEBB3F100A54C10 /* LCExampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCExampleListViewController.h; sourceTree = "<group>"; };
+		8A36135D1BEBB3F100A54C10 /* LCExampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCExampleListViewController.m; sourceTree = "<group>"; };
+		8A36135F1BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCFrameLikeAutoLayoutController.h; sourceTree = "<group>"; };
+		8A3613601BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCFrameLikeAutoLayoutController.m; sourceTree = "<group>"; };
+		8A3613611BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCFrameLikeAutoLayoutController.xib; sourceTree = "<group>"; };
+		8A3613641BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCResponsiveAutoLayoutViewController.h; sourceTree = "<group>"; };
+		8A3613651BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCResponsiveAutoLayoutViewController.m; sourceTree = "<group>"; };
+		8A3613661BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCResponsiveAutoLayoutViewController.xib; sourceTree = "<group>"; };
+		8A3613691BEBBD9400A54C10 /* LCLaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLaunchScreenViewController.h; sourceTree = "<group>"; };
+		8A36136A1BEBBD9400A54C10 /* LCLaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLaunchScreenViewController.m; sourceTree = "<group>"; };
+		8A36136B1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCLaunchScreenViewController.xib; sourceTree = "<group>"; };
 		8AF4A03D1BEA41E80005A866 /* LCAutolayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCAutolayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF4A0411BEA41E80005A866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AF4A0431BEA41E80005A866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A36135B1BEBB39E00A54C10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A36135C1BEBB3F100A54C10 /* LCExampleListViewController.h */,
+				8A36135D1BEBB3F100A54C10 /* LCExampleListViewController.m */,
+				8A36135F1BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.h */,
+				8A3613601BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m */,
+				8A3613611BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib */,
+				8A3613641BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.h */,
+				8A3613651BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m */,
+				8A3613661BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib */,
+				8A3613691BEBBD9400A54C10 /* LCLaunchScreenViewController.h */,
+				8A36136A1BEBBD9400A54C10 /* LCLaunchScreenViewController.m */,
+				8A36136B1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		8AF4A0341BEA41E80005A866 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +139,7 @@
 		8AF4A03F1BEA41E80005A866 /* LCAutolayoutExample */ = {
 			isa = PBXGroup;
 			children = (
+				8A36135B1BEBB39E00A54C10 /* ViewControllers */,
 				8AF4A0431BEA41E80005A866 /* AppDelegate.h */,
 				8AF4A0441BEA41E80005A866 /* AppDelegate.m */,
 				8AF4A0461BEA41E80005A866 /* ViewController.h */,
@@ -248,6 +285,9 @@
 			files = (
 				8AF4A0501BEA41E80005A866 /* LaunchScreen.storyboard in Resources */,
 				8AF4A04D1BEA41E80005A866 /* Assets.xcassets in Resources */,
+				8A3613681BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib in Resources */,
+				8A36136D1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib in Resources */,
+				8A3613631BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib in Resources */,
 				8AF4A0741BEA48490005A866 /* ViewController.xib in Resources */,
 				8AF4A04B1BEA41E80005A866 /* Main.storyboard in Resources */,
 			);
@@ -274,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A36136C1BEBBD9400A54C10 /* LCLaunchScreenViewController.m in Sources */,
 				8AF4A0481BEA41E80005A866 /* ViewController.m in Sources */,
 				8AF4A0451BEA41E80005A866 /* AppDelegate.m in Sources */,
+				8A36135E1BEBB3F100A54C10 /* LCExampleListViewController.m in Sources */,
 				8AF4A0421BEA41E80005A866 /* main.m in Sources */,
+				8A3613671BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m in Sources */,
+				8A3613621BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +548,7 @@
 				8AF4A06C1BEA41E90005A866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF4A06D1BEA41E90005A866 /* Build configuration list for PBXNativeTarget "LCAutolayoutExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +557,7 @@
 				8AF4A06F1BEA41E90005A866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF4A0701BEA41E90005A866 /* Build configuration list for PBXNativeTarget "LCAutolayoutExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +566,7 @@
 				8AF4A0721BEA41E90005A866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
