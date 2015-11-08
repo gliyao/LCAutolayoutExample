@@ -26,6 +26,8 @@
 		8A7857171BEF36B3007A915F /* LCSelfSizingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7857151BEF36B3007A915F /* LCSelfSizingTableViewController.xib */; };
 		8A78571B1BEF36D2007A915F /* LCCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7857191BEF36D2007A915F /* LCCellTableViewCell.m */; };
 		8A78571C1BEF36D2007A915F /* LCCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A78571A1BEF36D2007A915F /* LCCellTableViewCell.xib */; };
+		8A7857201BEF3A04007A915F /* LCAutolayoutAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A78571E1BEF3A04007A915F /* LCAutolayoutAnimationViewController.m */; };
+		8A7857211BEF3A04007A915F /* LCAutolayoutAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A78571F1BEF3A04007A915F /* LCAutolayoutAnimationViewController.xib */; };
 		8AF4A0421BEA41E80005A866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0411BEA41E80005A866 /* main.m */; };
 		8AF4A0451BEA41E80005A866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0441BEA41E80005A866 /* AppDelegate.m */; };
 		8AF4A0481BEA41E80005A866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0471BEA41E80005A866 /* ViewController.m */; };
@@ -84,6 +86,9 @@
 		8A7857181BEF36D2007A915F /* LCCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCellTableViewCell.h; sourceTree = "<group>"; };
 		8A7857191BEF36D2007A915F /* LCCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCellTableViewCell.m; sourceTree = "<group>"; };
 		8A78571A1BEF36D2007A915F /* LCCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCellTableViewCell.xib; sourceTree = "<group>"; };
+		8A78571D1BEF3A04007A915F /* LCAutolayoutAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAutolayoutAnimationViewController.h; sourceTree = "<group>"; };
+		8A78571E1BEF3A04007A915F /* LCAutolayoutAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAutolayoutAnimationViewController.m; sourceTree = "<group>"; };
+		8A78571F1BEF3A04007A915F /* LCAutolayoutAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCAutolayoutAnimationViewController.xib; sourceTree = "<group>"; };
 		8AF4A03D1BEA41E80005A866 /* LCAutolayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCAutolayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF4A0411BEA41E80005A866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AF4A0431BEA41E80005A866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +165,9 @@
 				8A7857181BEF36D2007A915F /* LCCellTableViewCell.h */,
 				8A7857191BEF36D2007A915F /* LCCellTableViewCell.m */,
 				8A78571A1BEF36D2007A915F /* LCCellTableViewCell.xib */,
+				8A78571D1BEF3A04007A915F /* LCAutolayoutAnimationViewController.h */,
+				8A78571E1BEF3A04007A915F /* LCAutolayoutAnimationViewController.m */,
+				8A78571F1BEF3A04007A915F /* LCAutolayoutAnimationViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -336,6 +344,7 @@
 				8A3613721BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib in Resources */,
 				8A7857081BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib in Resources */,
 				8A7857121BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib in Resources */,
+				8A7857211BEF3A04007A915F /* LCAutolayoutAnimationViewController.xib in Resources */,
 				8AF4A0501BEA41E80005A866 /* LaunchScreen.storyboard in Resources */,
 				8AF4A04D1BEA41E80005A866 /* Assets.xcassets in Resources */,
 				8A3613681BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib in Resources */,
@@ -379,6 +388,7 @@
 				8A78571B1BEF36D2007A915F /* LCCellTableViewCell.m in Sources */,
 				8AF4A0421BEA41E80005A866 /* main.m in Sources */,
 				8A3613671BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m in Sources */,
+				8A7857201BEF3A04007A915F /* LCAutolayoutAnimationViewController.m in Sources */,
 				8A7857111BEF3057007A915F /* LCAutolayoutLifecycleViewController.m in Sources */,
 				8A3613621BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m in Sources */,
 			);
