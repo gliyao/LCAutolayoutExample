@@ -22,36 +22,42 @@
     self.label.textColor = [UIColor whiteColor];
     
     self.label.text = [NSString stringWithFormat:@"loadView f = %@", NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@", [NSString stringWithFormat:@"loadView f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.label.text = [NSString stringWithFormat:@"%@ \nviewDidLoad f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@",[NSString stringWithFormat:@"viewDidLoad f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.label.text = [NSString stringWithFormat:@"%@ \nviewWillApear f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    self.label.text = [NSString stringWithFormat:@"%@ \nviewWillAppear f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@", [NSString stringWithFormat:@"viewWillAppear f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    self.label.text = [NSString stringWithFormat:@"%@ \nviewDidApear f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    self.label.text = [NSString stringWithFormat:@"%@ \nviewDidAppear f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@", [NSString stringWithFormat:@"viewDidAppear f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 - (void)updateViewConstraints
 {
     [super updateViewConstraints];
-    self.label.text = [NSString stringWithFormat:@"%@ \nupdateViewConstrainsts f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    self.label.text = [NSString stringWithFormat:@"%@ \nupdateViewConstraints f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@", [NSString stringWithFormat:@"updateViewConstraints f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 - (void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
-    self.label.text = [NSString stringWithFormat:@"%@ \nviewDidLayoutSuviews f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    self.label.text = [NSString stringWithFormat:@"%@ \nviewDidLayoutSubviews f = %@", self.label.text, NSStringFromCGRect(self.view.frame)];
+    NSLog(@"%@", [NSString stringWithFormat:@"viewDidLayoutSubviews f = %@", NSStringFromCGRect(self.view.frame)]);
 }
 
 @end
