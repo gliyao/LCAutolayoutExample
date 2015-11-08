@@ -21,8 +21,10 @@
     [self.view addSubview:redBox];
     
     // Simple constraints
-//    NSArray *constraintsH = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[box]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(redBox)];
+//    NSArray *constraintsH = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[redBox]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(redBox)];
 //    NSArray *constraintsV = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-84-[redBox(==200)]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(redBox)];
+//    [self.view addConstraints:constraintsH];
+//    [self.view addConstraints:constraintsV];
     
     UIView *blueBox = [self _autolayoutViewWithColor:[UIColor blueColor]];
     [self.view addSubview:blueBox];
