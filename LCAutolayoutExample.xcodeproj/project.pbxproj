@@ -16,6 +16,12 @@
 		8A36136D1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A36136B1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib */; };
 		8A3613711BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36136F1BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.m */; };
 		8A3613721BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3613701BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib */; };
+		8A7856C31BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7856C11BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.m */; };
+		8A7856C41BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7856C21BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.xib */; };
+		8A7857071BEEFF9A007A915F /* LCDynamicLableHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7857051BEEFF9A007A915F /* LCDynamicLableHeightViewController.m */; };
+		8A7857081BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7857061BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib */; };
+		8A7857111BEF3057007A915F /* LCAutolayoutLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A78570F1BEF3057007A915F /* LCAutolayoutLifecycleViewController.m */; };
+		8A7857121BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7857101BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib */; };
 		8AF4A0421BEA41E80005A866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0411BEA41E80005A866 /* main.m */; };
 		8AF4A0451BEA41E80005A866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0441BEA41E80005A866 /* AppDelegate.m */; };
 		8AF4A0481BEA41E80005A866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4A0471BEA41E80005A866 /* ViewController.m */; };
@@ -59,6 +65,15 @@
 		8A36136E1BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCIntrinsicContentSizeViewController.h; sourceTree = "<group>"; };
 		8A36136F1BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCIntrinsicContentSizeViewController.m; sourceTree = "<group>"; };
 		8A3613701BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCIntrinsicContentSizeViewController.xib; sourceTree = "<group>"; };
+		8A7856C01BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCIntrinsicContentSizeExplanationViewController.h; sourceTree = "<group>"; };
+		8A7856C11BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCIntrinsicContentSizeExplanationViewController.m; sourceTree = "<group>"; };
+		8A7856C21BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCIntrinsicContentSizeExplanationViewController.xib; sourceTree = "<group>"; };
+		8A7857041BEEFF9A007A915F /* LCDynamicLableHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDynamicLableHeightViewController.h; sourceTree = "<group>"; };
+		8A7857051BEEFF9A007A915F /* LCDynamicLableHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDynamicLableHeightViewController.m; sourceTree = "<group>"; };
+		8A7857061BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCDynamicLableHeightViewController.xib; sourceTree = "<group>"; };
+		8A78570E1BEF3057007A915F /* LCAutolayoutLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAutolayoutLifecycleViewController.h; sourceTree = "<group>"; };
+		8A78570F1BEF3057007A915F /* LCAutolayoutLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAutolayoutLifecycleViewController.m; sourceTree = "<group>"; };
+		8A7857101BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCAutolayoutLifecycleViewController.xib; sourceTree = "<group>"; };
 		8AF4A03D1BEA41E80005A866 /* LCAutolayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCAutolayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF4A0411BEA41E80005A866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AF4A0431BEA41E80005A866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,9 +132,18 @@
 				8A3613691BEBBD9400A54C10 /* LCLaunchScreenViewController.h */,
 				8A36136A1BEBBD9400A54C10 /* LCLaunchScreenViewController.m */,
 				8A36136B1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib */,
+				8A7856C01BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.h */,
+				8A7856C11BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.m */,
+				8A7856C21BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.xib */,
+				8A7857041BEEFF9A007A915F /* LCDynamicLableHeightViewController.h */,
+				8A7857051BEEFF9A007A915F /* LCDynamicLableHeightViewController.m */,
+				8A7857061BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib */,
 				8A36136E1BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.h */,
 				8A36136F1BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.m */,
 				8A3613701BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib */,
+				8A78570E1BEF3057007A915F /* LCAutolayoutLifecycleViewController.h */,
+				8A78570F1BEF3057007A915F /* LCAutolayoutLifecycleViewController.m */,
+				8A7857101BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -292,10 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3613721BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.xib in Resources */,
+				8A7857081BEEFF9A007A915F /* LCDynamicLableHeightViewController.xib in Resources */,
+				8A7857121BEF3057007A915F /* LCAutolayoutLifecycleViewController.xib in Resources */,
 				8AF4A0501BEA41E80005A866 /* LaunchScreen.storyboard in Resources */,
 				8AF4A04D1BEA41E80005A866 /* Assets.xcassets in Resources */,
 				8A3613681BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.xib in Resources */,
 				8A36136D1BEBBD9400A54C10 /* LCLaunchScreenViewController.xib in Resources */,
+				8A7856C41BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.xib in Resources */,
 				8A3613631BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.xib in Resources */,
 				8AF4A0741BEA48490005A866 /* ViewController.xib in Resources */,
 				8AF4A04B1BEA41E80005A866 /* Main.storyboard in Resources */,
@@ -325,11 +352,14 @@
 			files = (
 				8A3613711BEBC13400A54C10 /* LCIntrinsicContentSizeViewController.m in Sources */,
 				8A36136C1BEBBD9400A54C10 /* LCLaunchScreenViewController.m in Sources */,
+				8A7856C31BEEF498007A915F /* LCIntrinsicContentSizeExplanationViewController.m in Sources */,
 				8AF4A0481BEA41E80005A866 /* ViewController.m in Sources */,
 				8AF4A0451BEA41E80005A866 /* AppDelegate.m in Sources */,
+				8A7857071BEEFF9A007A915F /* LCDynamicLableHeightViewController.m in Sources */,
 				8A36135E1BEBB3F100A54C10 /* LCExampleListViewController.m in Sources */,
 				8AF4A0421BEA41E80005A866 /* main.m in Sources */,
 				8A3613671BEBB7D100A54C10 /* LCResponsiveAutoLayoutViewController.m in Sources */,
+				8A7857111BEF3057007A915F /* LCAutolayoutLifecycleViewController.m in Sources */,
 				8A3613621BEBB5CE00A54C10 /* LCFrameLikeAutoLayoutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

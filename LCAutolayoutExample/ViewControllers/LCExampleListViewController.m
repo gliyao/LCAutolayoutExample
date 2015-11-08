@@ -12,7 +12,8 @@
     
     self.viewControllers = @[
                              @[@"LCFrameLikeAutoLayoutController", @"LCResponsiveAutoLayoutViewController", @"LCLaunchScreenViewController"],
-                             @[@"LCIntrinsicContentSizeViewController"]
+                             @[@"LCIntrinsicContentSizeExplanationViewController", @"LCDynamicLableHeightViewController", @"LCIntrinsicContentSizeViewController"],
+                             @[@"LCAutolayoutLifecycleViewController"]
                              ];
 }
 
