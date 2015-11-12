@@ -15,11 +15,21 @@
 
 @implementation LCAutolayoutLifecycleViewController
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if(self = [super initWithCoder:aDecoder]){
+        
+    }
+    return self;
+}
+
 - (void)loadView
 {
     [super loadView];
+    self.view.backgroundColor = [UIColor blackColor];
     self.label.text = @"";
     self.label.textColor = [UIColor whiteColor];
+    self.label.numberOfLines = 0;
     
     self.label.text = [NSString stringWithFormat:@"loadView f = %@", NSStringFromCGRect(self.view.frame)];
     NSLog(@"%@", [NSString stringWithFormat:@"loadView f = %@", NSStringFromCGRect(self.view.frame)]);

@@ -13,13 +13,19 @@
     self.viewControllers = @[
                              @[@"LCFrameLikeAutoLayoutController", @"LCResponsiveAutoLayoutViewController", @"LCLaunchScreenViewController"],
                              @[@"LCIntrinsicContentSizeExplanationViewController", @"LCDynamicLableHeightViewController", @"LCIntrinsicContentSizeViewController"],
-                             @[@"LCAutolayoutLifecycleViewController", @"LCSelfSizingTableViewController", @"LCAutolayoutAnimationViewController", @"LCAutolayoutConstraintsWithCodeViewController", @"LCAutolayoutVFLViewController"]
+                             @[@"LCAutolayoutLifecycleViewController",
+                               @"", @"LCSelfSizingTableViewController", @"LCAutolayoutAnimationViewController", @"LCAutolayoutConstraintsWithCodeViewController", @"LCAutolayoutVFLViewController"]
                              ];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
     NSString *className = self.viewControllers[indexPath.section][indexPath.row];
+    
+    if([className isEqualToString:@""]){
+        [self performSegueWithIdentifier:@"pushLCAutolayoutLifecycleViewController" sender:nil];
+        return;
+    }
     Class c = NSClassFromString(className);
     UIViewController *vc = [[c alloc] initWithNibName:className bundle:nil];
     vc.title = className;
